@@ -35,7 +35,7 @@ ansible-playbook -i inventory.ini -l bastion configure_servers.yml
 
 # Moje práce
 
-- Jako první jsem si stáhnul čerstvý Zabbix appliance a nastavil na něm síť
+- Jako první jsem si stáhnul čerstvý Zabbix appliance a nastavil na něm síť (vnitřní síť, předávání portů a network-scripts)
 
 ![Virtualbox-zabbix](./screenshots/virtualbox-zabbix_server.png)
 ![Zabbix-sit](./screenshots/zabbix-sit.png)
