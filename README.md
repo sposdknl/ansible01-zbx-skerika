@@ -40,42 +40,42 @@ ansible-playbook -i inventory.ini -l bastion configure_servers.yml
 ![Virtualbox-zabbix](./screenshots/virtualbox-zabbix_server.png)
 ![Zabbix-sit](./screenshots/zabbix-sit.png)
 
-
+<br/><br/>
 
 - Také jsem vytvořil autoregistrační pravidlo
 
 ![Zabbix-autoregistrace](./screenshots/zabbix-autoregistracni_pravidlo.png)
 
-
+<br/><br/>
 
 - Potom jsem upravil ansible scripty, aby odpovídaly zadání a pushnul je na Github
 
-
+<br/><br/>
 
 - Pak jsem spustil VM bastion přes vagrant, tím se udělal provision Bastionu
 
 ![Bastion-vagrant](./screenshots/bastion-vagrant_up.png)
 
-
+<br/><br/>
 
 - Provision nastavil i síť a obě VM se vidí
 
 ![Bastion-sit](./screenshots/bastion-sit.png)
 ![Bastion-ping](./screenshots/bastion_pinguje_zabbix_server.png)
 
-
+<br/><br/>
 
 - Pak jsem spustil ansible_provision, který stáhnul Zabbix agenta verze 2 a zároveň ho [nakonfiguroval](./config/zabbix_agent2.conf)
 
 ![Bastion-ansible](./screenshots/bastion-spousteni_ansible_configure_servers.png)
 
-
+<br/><br/>
 
 - Bastion je plně funkční a Zabbix_agent2 běží
 
 ![Bastion-zabbix](./screenshots/bastion-zabbix_agent2_bezi.png)
 
-
+<br/><br/>
 
 - Nakonec zkontrolujeme zda se host přidal do zabbixu a můžeme ho monitorovat
 
