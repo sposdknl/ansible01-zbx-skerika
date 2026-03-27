@@ -52,7 +52,7 @@ ansible-playbook -i inventory.ini -l bastion configure_servers.yml
 
 <br/><br/>
 
-- Pak jsem spustil VM bastion přes vagrant, tím se udělal provision Bastionu
+- Pak jsem spustil VM bastion přes vagrant up, tím se udělal provision Bastionu
 
 ![Bastion-vagrant](./screenshots/bastion-vagrant_up.png)
 
@@ -71,7 +71,7 @@ ansible-playbook -i inventory.ini -l bastion configure_servers.yml
 
 <br/><br/>
 
-- Bastion je plně funkční a Zabbix_agent2 běží
+- Bastion je připravený a zabbix-agent2 běží
 
 ![Bastion-zabbix](./screenshots/bastion-zabbix_agent2_bezi.png)
 
